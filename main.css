@@ -1,17 +1,16 @@
-@media screen and (max-width: 600px){
-body{
+@media screen and (max-width: 600px) {
+  body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background: #2f496e; */
-
-}
-nav{
+  }
+  nav {
     width: 100vw;
     height: 80px;
     display: flex;
@@ -20,10 +19,9 @@ nav{
     right: 0;
     justify-content: space-between;
     background: #fff;
-    /* border: 1px solid orangered; */
     margin-bottom: 10px;
-}
-.bars{
+  }
+  .bars {
     width: 40px;
     height: 40px;
     fill: #2f496e;
@@ -32,33 +30,32 @@ nav{
     right: 0;
     padding: 5px 10px;
     z-index: 23434;
-}
-nav #logo{
+  }
+  nav #logo {
     padding: 0px 20px;
     width: 10vw;
     height: inherit;
-    margin-left: 10px
+    margin-left: 10px;
     /* border: 1px solid green; */
-}
-nav #logo h1{
+  }
+  nav #logo h1 {
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
     /* text-decoration: underline; */
-}
-nav #logo b{
+  }
+  nav #logo b {
     color: #ed8c72;
-}
-nav ul{
+  }
+  nav ul {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
     /* flex-wrap: wrap; */
     display: none;
     /* font-size: 2rem; */
-    
-}
-nav ul li{
+  }
+  nav ul li {
     list-style-type: none;
     padding: 10px;
     flex-basis: 200px;
@@ -66,58 +63,61 @@ nav ul li{
     padding: 5px 40px;
     /* display: none; */
     /* border:1px solid pink; */
-}
-nav ul li a{
+  }
+  nav ul li a {
     color: #2f496e;
     text-decoration: none;
-}
+  }
 
-header{
+  header {
     width: 100vw;
     height: 70vh;
     position: relative;
     top: 15vh;
-    background: #EEEE;
+    background: #eeee;
     display: flex;
     flex-direction: row-reverse;
     /* background: url("pics/white-earphones-blue-background_72402-386.jpg") no-repeat; */
     /* background-size: cover; */
-
-}
-header section{
+  }
+  header section {
     height: inherit;
     display: flex;
     flex-direction: column;
     /* z-index: 2; */
-}
+  }
 
-header #header-main-con{
+  header #header-main-con {
     width: 40%;
     justify-content: center;
     align-items: flex-start;
     /* background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) ); */
-    background: linear-gradient(to left, #ed8c72,#db542e );
+    background: linear-gradient(to left, #ed8c72, #db542e);
     /* border: 1px solid green; */
-    clip-path: polygon( 10% 75%, 0% 10%, 100% 100% , 100% 0);
+    clip-path: polygon(10% 75%, 0% 10%, 100% 100%, 100% 0);
     /* clip-path: polygon(100% 0, 0% 100%, 100% 100% , 100% 0); */
-
-}
-header #header-main-con-2{
+  }
+  header #header-main-con-2 {
     width: 40%;
     justify-content: center;
     align-items: flex-start;
-    background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) );
+    background: linear-gradient(
+      to left,
+      royalblue,
+      rgb(55, 176, 212),
+      rgb(55, 188, 212)
+    );
     /* border: 1px solid green; */
     transform: rotate(20deg);
-    position: absolute;left: 0;
+    position: absolute;
+    left: 0;
     z-index: 1;
-    opacity: .7;
+    opacity: 0.7;
     /* clip-path: polygon( 10% 75%, 0% 10%, 100% 100% , 100% 0); */
-    clip-path: polygon(100% 0, 0% 100%, 100% 100% , 100% 0);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%, 100% 0);
+  }
 
-}
-
-header #header-main-theme{
+  header #header-main-theme {
     width: 80%;
     flex-direction: column;
     position: relative;
@@ -125,9 +125,8 @@ header #header-main-theme{
     animation: loadIn 2s ease-out forwards 1;
     /* background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) ); */
     /* border: 1px solid green; */
-    
-}
-header #header-main-theme h1{
+  }
+  header #header-main-theme h1 {
     width: 140px;
     font-size: 3em;
     font-weight: 100;
@@ -139,121 +138,127 @@ header #header-main-theme h1{
     animation: loadIn 2s ease-out forwards 1;
     border-bottom: 3px solid pink;
     border-bottom-width: 5px;
-    border-bottom-style:double;
-}
-header #header-main-theme b{
+    border-bottom-style: double;
+  }
+  header #header-main-theme b {
     color: #ed8c72;
-}
-header #header-main-theme p{
+  }
+  header #header-main-theme p {
     font-size: 1.5rem;
     width: 320px;
     margin-left: 10%;
-}
-header #header-main-theme i{color: orangered}
+  }
+  header #header-main-theme i {
+    color: orangered;
+  }
 
-header #header-main-theme p::before{
+  header #header-main-theme p::before {
     content: " #";
     color: #ed8c72;
-}
-header #header-main-theme h1, header #header-main-theme p{
+  }
+  header #header-main-theme h1,
+  header #header-main-theme p {
     z-index: 33;
-}
-header #header-main-arrows{
-    width:30px;
+  }
+  header #header-main-arrows {
+    width: 30px;
     height: 40px;
     position: absolute;
     bottom: 0;
     right: 50%;
     /* border: 2px solid green; */
-}
-header #header-main-arrows svg{
+  }
+  header #header-main-arrows svg {
     width: inherit;
     height: inherit;
     margin-top: -20px;
     padding: 0px 2px;
     position: relative;
-    
-}
+  }
 
-header #header-main-arrows #fst-arrow{
-    animation: Arrow-moveDown .5s ease forwards infinite;
-    animation-delay: .8s;
-}
-header #header-main-arrows #scd-arrow{
-    animation: Arrow-moveDown .5s ease forwards infinite;
+  header #header-main-arrows #fst-arrow {
+    animation: Arrow-moveDown 0.5s ease forwards infinite;
+    animation-delay: 0.8s;
+  }
+  header #header-main-arrows #scd-arrow {
+    animation: Arrow-moveDown 0.5s ease forwards infinite;
     /* animation-delay: .4s; */
-}
-main{
+  }
+  main {
     width: 100vw;
-    position: relative; 
-    top: 50vh; 
+    position: relative;
+    top: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
     /* border: 1px solid green; */
-}
-main #main-intro-section{
+  }
+  main #main-intro-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-}
-main #main-intro-section #introductory-remarks{
+  }
+  main #main-intro-section #introductory-remarks {
     height: 50vh;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     padding: 10px;
     color: #2f496e;
     /* border: 1px solid pink; */
-    border-radius: 12px;    
+    border-radius: 12px;
     box-shadow: #eeee 2px 2px 2px 4px;
-}
-main #main-intro-section img{
+  }
+  main #main-intro-section img {
     width: 50%;
     height: 500px;
     margin-right: 10px;
     border-radius: 30px;
     /* display:none; */
     /* border: 1px solid green; */
-}
-main #main-intro-section i{color: #2f496e}
-main #main-intro-section p{
+  }
+  main #main-intro-section i {
+    color: #2f496e;
+  }
+  main #main-intro-section p {
     margin: 10% auto;
     width: 50vw;
-}
+  }
 
-main #main-elements-of-music{
+  main #main-elements-of-music {
     margin: 40% 0;
     display: flex;
     flex-direction: row-reverse;
-    background: url("3761.png")
-}
-#elem-text{
+    background: url("3761.png");
+  }
+  #elem-text {
     background: rgba(255, 255, 255, 0.616);
     border-radius: 40px;
     padding: 10px;
-}
-main #main-elements-of-music h2{
+  }
+  main #main-elements-of-music h2 {
     font-weight: 100;
     color: royalblue;
-}
-main #main-elements-of-music strong{color: #ed8c72;}
-main #main-elements-of-music img{
+  }
+  main #main-elements-of-music strong {
+    color: #ed8c72;
+  }
+  main #main-elements-of-music img {
     width: 300px;
     display: none;
     border-radius: 20px;
-}
+  }
 
-
-main #main-instrument{
+  main #main-instrument {
     width: 95vw;
     margin: 0 auto;
     height: 700px;
     margin-top: -10vh;
-    background:#000 url("Click to enlarge music wallpaper backgrounds and download.jpg");
+    background: #000
+      url("Click to enlarge music wallpaper backgrounds and download.jpg");
     background-position: 250px 200px;
     /* border: 5px solid green; */
     display: flex;
@@ -262,9 +267,8 @@ main #main-instrument{
     border-radius: 20px;
     box-shadow: rgba(32, 28, 28, 0.933) 2px 2px 4px 4px;
     /* align-items: center; */
-    
-}
-main #main-instrument-intro{
+  }
+  main #main-instrument-intro {
     width: 100%;
     color: #fff;
     height: 90%;
@@ -277,8 +281,8 @@ main #main-instrument-intro{
     border-radius: 10px;
     overflow: hidden;
     /* border: 1px solid pink; */
-}
-main #main-instrument-intro-header{
+  }
+  main #main-instrument-intro-header {
     width: 50%;
     color: #fff;
     height: 70%;
@@ -290,22 +294,24 @@ main #main-instrument-intro-header{
     align-items: center;
     /* background: rgba(255, 255, 255, 0.103); */
     border-radius: 10px;
-    
-}
-main #main-instrument-intro blockquote{
+  }
+  main #main-instrument-intro blockquote {
     width: 60%;
     /* border: 1px solid #fff; */
-
-}
-main #main-instrument-intro button{
+  }
+  main #main-instrument-intro button {
     position: absolute;
     color: orange;
     background: none;
     border: none;
-}
-main #main-instrument-intro #next-link{bottom: 100px;}
-main #main-instrument-intro button:hover{color:rgb(223, 138, 10)}
-main #main-musical-instrument-types{
+  }
+  main #main-instrument-intro #next-link {
+    bottom: 100px;
+  }
+  main #main-instrument-intro button:hover {
+    color: rgb(223, 138, 10);
+  }
+  main #main-musical-instrument-types {
     width: 50%;
     height: 100%;
     display: flex;
@@ -316,90 +322,89 @@ main #main-musical-instrument-types{
     /* border: 1px solid pink; */
     /* text-emphasis: wrap; */
     /* overflow: hidden; */
-}
-main #main-musical-instrument-types p{
+  }
+  main #main-musical-instrument-types p {
     width: 70%;
-}
-main #main-instrument-list{
+  }
+  main #main-instrument-list {
     /* border: 2px solid pink; */
-    margin-top: 0px; 
+    margin-top: 0px;
     height: 60px;
     position: relative;
     top: 5px;
     display: flex;
     justify-content: center;
-}
-main #main-instrument-types table, td, th{
+  }
+  main #main-instrument-types table,
+  td,
+  th {
     border: 1px solid #333;
     width: 30%;
     height: 40%;
     /* padding: 5px; */
-}
- #prev{
+  }
+  #prev {
     position: absolute;
     bottom: -10px;
-
-}
-/* td, th{
+  }
+  /* td, th{
     padding: 10px;
 } */
-main #main-instrument-list ul{
+  main #main-instrument-list ul {
     /* width: ; */
     height: inherit;
     display: flex;
     flex-direction: row;
-}
-main #main-instrument-list ul li{
+  }
+  main #main-instrument-list ul li {
     list-style: none;
     padding: 10px;
-}
-main #main-instrument-list ul li a{
+  }
+  main #main-instrument-list ul li a {
     color: #fff;
     text-decoration: none;
     /* background: rgb(45, 48, 221); */
     padding: 10px;
     height: 30px;
-    border-radius: 10px; 
-}
+    border-radius: 10px;
+  }
 
-main #musical-professions{
+  main #musical-professions {
     width: 100vw;
     height: 600px;
-    background:#2f496e url("1gSvNc.jpg");
-    display:flex;
+    background: #2f496e url("1gSvNc.jpg");
+    display: flex;
     justify-content: center;
     align-items: center;
     /* overflow-y: scroll; */
-    
-}
-main #musical-professions #musical-professions-intro{
+  }
+  main #musical-professions #musical-professions-intro {
     width: 90%;
     height: 80%;
     background: rgba(32, 169, 248, 0.562);
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px 0 0px 30px;
     overflow-y: scroll;
     /* border: 1px solid green; */
-}
-#musical-professions-intro::-webkit-scrollbar{
+  }
+  #musical-professions-intro::-webkit-scrollbar {
     width: 10px;
-
-}
-#musical-professions-intro::-webkit-scrollbar-track{
+  }
+  #musical-professions-intro::-webkit-scrollbar-track {
     background: royalblue;
     border-radius: 30px;
-}
-#musical-professions-intro::-webkit-scrollbar-thumb{
+  }
+  #musical-professions-intro::-webkit-scrollbar-thumb {
     background-color: #333;
     border-radius: 30px;
-}
-#musical-professions-intro::-webkit-scrollbar-thumb:hover{
+  }
+  #musical-professions-intro::-webkit-scrollbar-thumb:hover {
     background-color: rgb(80, 73, 73);
-}
-main #musical-professions-intro h2{
+  }
+  main #musical-professions-intro h2 {
     padding: 10px 20px;
     /* width: 100%; */
     /* margin-top: 150px; */
@@ -413,20 +418,23 @@ main #musical-professions-intro h2{
     border-radius: 20px;
     background: rgba(32, 169, 248, 0.562);
     border-bottom: 2px solid #fff;
-}
+  }
 
-main #musical-professions-intro h2 b{
+  main #musical-professions-intro h2 b {
     color: #db542e;
-}
+  }
 
-main #musical-professions-intro p{
+  main #musical-professions-intro p {
     width: 50%;
     padding: 10px;
-
-}
-main #musical-professions-intro i{color: #fff;}
-main #musical-professions-intro a{ color: #eec306; }
-#cookies{
+  }
+  main #musical-professions-intro i {
+    color: #fff;
+  }
+  main #musical-professions-intro a {
+    color: #eec306;
+  }
+  #cookies {
     width: 100vw;
     height: 40px;
     background: #2f496e;
@@ -434,58 +442,58 @@ main #musical-professions-intro a{ color: #eec306; }
     position: fixed;
     bottom: 0;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     opacity: 0;
-}
-#cookies button{
+  }
+  #cookies button {
     width: 30px;
     height: 30px;
     background: green;
     color: #fff;
-    border:none;
+    border: none;
     /* padding: 10px; */
     margin-left: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-#cookies button svg{
+  }
+  #cookies button svg {
     width: 20px;
     height: 20px;
     fill: #fff;
-}
-#cookies button:hover{background: rgb(13, 102, 13);}
-footer{
+  }
+  #cookies button:hover {
+    background: rgb(13, 102, 13);
+  }
+  footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    background: #EEEEEE;
+    background: #eeeeee;
     /* border: 1px solid green; */
-
-}
-footer #logo{
+  }
+  footer #logo {
     padding: 0px 20px;
     width: 10vw;
     height: inherit;
-    margin-left: 10px
+    margin-left: 10px;
     /* border: 1px solid green; */
-}
-footer #logo h1{
+  }
+  footer #logo h1 {
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
     /* text-decoration: underline; */
-}
-footer #logo b{
+  }
+  footer #logo b {
     color: #ed8c72;
-}
-footer #socialmedia{
+  }
+  footer #socialmedia {
     width: 200px;
     height: inherit;
     /* border: 1px solid pink; */
@@ -493,95 +501,134 @@ footer #socialmedia{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-footer #socialmedia svg{
+  }
+  footer #socialmedia svg {
     width: 30px;
     height: 30px;
     padding: 10px;
-}
-footer #socialmedia #facebook-btn{fill: royalblue;}
-footer #socialmedia #twitter-btn{fill: #1DA1F2;}
-footer #socialmedia #gmail-btn{fill: rgb(182, 33, 33);}
+  }
+  footer #socialmedia #facebook-btn {
+    fill: royalblue;
+  }
+  footer #socialmedia #twitter-btn {
+    fill: #1da1f2;
+  }
+  footer #socialmedia #gmail-btn {
+    fill: rgb(182, 33, 33);
+  }
 
+  #orange {
+    background: rgb(221, 78, 12);
+  }
+  #orange:hover,
+  #orange:focus {
+    background: rgb(180, 64, 11);
+  }
+  #green {
+    background: green;
+  }
+  #green:hover,
+  #green:focus {
+    background: rgb(5, 95, 5);
+  }
+  #blue {
+    background: rgb(22, 107, 187);
+  }
+  #blue:hover,
+  #blue:focus {
+    background: rgb(11, 86, 156);
+  }
+  #pink {
+    background: rgb(211, 33, 62);
+  }
+  #pink:hover,
+  #pink:focus {
+    background: rgb(197, 15, 46);
+  }
 
-
-
-
-#orange{background: rgb(221, 78, 12);} #orange:hover, #orange:focus{background: rgb(180, 64, 11)}
-#green{background: green;} #green:hover,#green:focus{background: rgb(5, 95, 5);}
-#blue{background: rgb(22, 107, 187);} #blue:hover, #blue:focus{background: rgb(11, 86, 156)}
-#pink{background: rgb(211, 33, 62);} #pink:hover, #pink:focus{background: rgb(197, 15, 46)}
-
-.hide{animation: hide 2s ease forwards;}
-.show{animation:show 2s ease forwards; display: flex;
-/* animation-delay: 1.2s; */
-}
-.appear{animation: appear 1s ease forwards;}
-/*************************************************************
+  .hide {
+    animation: hide 2s ease forwards;
+  }
+  .show {
+    animation: show 2s ease forwards;
+    display: flex;
+    /* animation-delay: 1.2s; */
+  }
+  .appear {
+    animation: appear 1s ease forwards;
+  }
+  /*************************************************************
 ****************************************************************
                 ANIMATION
 ****************************************************************
 ****************************************************************/
-@keyframes loadIn{
-    0%{left: -20%; opacity: .0;}
-    50%{left: -10%; opacity: .5;}
-    100%{left: 0%; opacity: 1; z-index: 33;}
-}
-@keyframes Arrow-moveDown{
-    from{top: 0; opacity: 1;}
-    to{top: 5px; opacity: 0;}
-}
-@keyframes hide{
-    0%{bottom: 0; opacity: 1;}
-    100%{bottom: 410px; opacity: 0;}
-}
-@keyframes show{
-    0%{position: relative; top: calc(100% - 40%);}
-    100%{position: relative; top: calc(100% - 120%);}
-}
-@keyframes appear{
-    to{opacity: 1;}
+  @keyframes loadIn {
+    0% {
+      left: -20%;
+      opacity: 0;
     }
+    50% {
+      left: -10%;
+      opacity: 0.5;
+    }
+    100% {
+      left: 0%;
+      opacity: 1;
+      z-index: 33;
+    }
+  }
+  @keyframes Arrow-moveDown {
+    from {
+      top: 0;
+      opacity: 1;
+    }
+    to {
+      top: 5px;
+      opacity: 0;
+    }
+  }
+  @keyframes hide {
+    0% {
+      bottom: 0;
+      opacity: 1;
+    }
+    100% {
+      bottom: 410px;
+      opacity: 0;
+    }
+  }
+  @keyframes show {
+    0% {
+      position: relative;
+      top: calc(100% - 40%);
+    }
+    100% {
+      position: relative;
+      top: calc(100% - 120%);
+    }
+  }
+  @keyframes appear {
+    to {
+      opacity: 1;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***************************************** TABLETS *************************************************
 ****************************************************************************************************/
 
 @media (min-width: 601px) and (max-width: 1024px) {
-    
-   
-body{
+  body {
     margin: 0;
     padding: 0;
-    /* background: #EEEEEE; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
-}
-/* .bars{background: #2f496e;} */
-nav{
+  }
+  nav {
     width: 100vw;
     height: 80px;
     display: flex;
@@ -590,7 +637,8 @@ nav{
     right: 0;
     justify-content: space-between;
     background: #fff;
-}.bars{
+  }
+  .bars {
     width: 40px;
     height: 40px;
     fill: #2f496e;
@@ -599,103 +647,89 @@ nav{
     right: 0;
     padding: 5px 10px;
     z-index: 23434;
-}
-nav #logo{
+  }
+  nav #logo {
     padding: 0px 20px;
     width: 10vw;
     height: inherit;
-    margin-left: 10px
-    /* border: 1px solid green; */
-}
-nav #logo h1{
+    margin-left: 10px;
+  }
+  nav #logo h1 {
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
-    /* text-decoration: underline; */
-}
-nav #logo b{
+  }
+  nav #logo b {
     color: #ed8c72;
-}
-nav ul{
+  }
+  nav ul {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    /* flex-wrap: wrap; */
     display: none;
-    /* font-size: 2rem; */
-    
-}
-nav ul li{
+  }
+  nav ul li {
     list-style-type: none;
     padding: 10px;
     flex-basis: 200px;
     font-size: 1.5rem;
     padding: 5px 40px;
-    /* display: none; */
-    /* border:1px solid pink; */
-}
+  }
 
-nav ul li a{
+  nav ul li a {
     color: #2f496e;
     text-decoration: none;
-}
+  }
 
-header{
+  header {
     width: 100vw;
     height: 70vh;
     position: relative;
     top: 15vh;
-    background: #EEEE;
+    background: #eeee;
     display: flex;
     flex-direction: row-reverse;
-    /* background: url("pics/white-earphones-blue-background_72402-386.jpg") no-repeat; */
-    /* background-size: cover; */
-
-}
-header section{
+  }
+  header section {
     height: inherit;
     display: flex;
     flex-direction: column;
-    /* z-index: 2; */
-}
+  }
 
-header #header-main-con{
+  header #header-main-con {
     width: 40%;
     justify-content: center;
     align-items: flex-start;
-    /* background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) ); */
-    background: linear-gradient(to left, #ed8c72,#db542e );
-    /* border: 1px solid green; */
-    clip-path: polygon( 10% 75%, 0% 10%, 100% 100% , 100% 0);
-    /* clip-path: polygon(100% 0, 0% 100%, 100% 100% , 100% 0); */
-
-}
-header #header-main-con-2{
+    background: linear-gradient(to left, #ed8c72, #db542e);
+    clip-path: polygon(10% 75%, 0% 10%, 100% 100%, 100% 0);
+  }
+  header #header-main-con-2 {
     width: 40%;
     justify-content: center;
     align-items: flex-start;
-    background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) );
+    background: linear-gradient(
+      to left,
+      royalblue,
+      rgb(55, 176, 212),
+      rgb(55, 188, 212)
+    );
     /* border: 1px solid green; */
     transform: rotate(20deg);
-    position: absolute;left: 0;
+    position: absolute;
+    left: 0;
     z-index: 1;
-    opacity: .7;
-    /* clip-path: polygon( 10% 75%, 0% 10%, 100% 100% , 100% 0); */
-    clip-path: polygon(100% 0, 0% 100%, 100% 100% , 100% 0);
+    opacity: 0.7;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%, 100% 0);
+  }
 
-}
-
-header #header-main-theme{
+  header #header-main-theme {
     width: 80%;
     flex-direction: column;
     position: relative;
     left: -80%;
     animation: loadIn 2s ease-out forwards 1;
-    /* background:linear-gradient(to left, royalblue, rgb(55, 176, 212), rgb(55, 188, 212) ); */
-    /* border: 1px solid green; */
-    
-}
-header #header-main-theme h1{
+  }
+  header #header-main-theme h1 {
     width: 140px;
     font-size: 3em;
     font-weight: 100;
@@ -707,123 +741,123 @@ header #header-main-theme h1{
     animation: loadIn 2s ease-out forwards 1;
     border-bottom: 3px solid pink;
     border-bottom-width: 5px;
-    border-bottom-style:double;
-}
-header #header-main-theme b{
+    border-bottom-style: double;
+  }
+  header #header-main-theme b {
     color: #ed8c72;
-}
-header #header-main-theme p{
+  }
+  header #header-main-theme p {
     font-size: 1.5rem;
     width: 320px;
     margin-left: 10%;
-}
-header #header-main-theme i{color: orangered}
+  }
+  header #header-main-theme i {
+    color: orangered;
+  }
 
-header #header-main-theme p::before{
+  header #header-main-theme p::before {
     content: " #";
     color: #ed8c72;
-}
-header #header-main-theme h1, header #header-main-theme p{
+  }
+  header #header-main-theme h1,
+  header #header-main-theme p {
     z-index: 33;
-}
-header #header-main-arrows{
-    width:30px;
+  }
+  header #header-main-arrows {
+    width: 30px;
     height: 40px;
     position: absolute;
     bottom: 0;
     right: 50%;
-    /* border: 2px solid green; */
-}
-header #header-main-arrows svg{
+  }
+  header #header-main-arrows svg {
     width: inherit;
     height: inherit;
     margin-top: -20px;
     padding: 0px 2px;
     position: relative;
-    
-}
+  }
 
-header #header-main-arrows #fst-arrow{
-    animation: Arrow-moveDown .5s ease forwards infinite;
-    animation-delay: .8s;
-}
-header #header-main-arrows #scd-arrow{
-    animation: Arrow-moveDown .5s ease forwards infinite;
-    /* animation-delay: .4s; */
-}
-main{
+  header #header-main-arrows #fst-arrow {
+    animation: Arrow-moveDown 0.5s ease forwards infinite;
+    animation-delay: 0.8s;
+  }
+  header #header-main-arrows #scd-arrow {
+    animation: Arrow-moveDown 0.5s ease forwards infinite;
+  }
+  main {
     width: 100vw;
-    position: relative; 
-    top: 50vh; 
+    position: relative;
+    top: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     /* border: 1px solid green; */
-}
-main #main-intro-section{
+  }
+  main #main-intro-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-}
-main #main-intro-section #introductory-remarks{
+  }
+  main #main-intro-section #introductory-remarks {
     height: 50vh;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     padding: 10px;
     color: #2f496e;
-    /* border: 1px solid pink; */
-    border-radius: 12px;    
+    border-radius: 12px;
     box-shadow: #eeee 2px 2px 2px 4px;
-}
-main #main-intro-section img{
+  }
+  main #main-intro-section img {
     width: calc(100% - 60%);
     height: 500px;
     margin-right: 10px;
     border-radius: 30px;
     /* border: 1px solid green; */
-}
-main #main-intro-section i{color: #2f496e}
-main #main-intro-section p{
+  }
+  main #main-intro-section i {
+    color: #2f496e;
+  }
+  main #main-intro-section p {
     margin: 10% auto;
     width: 50vw;
-}
+  }
 
-main #main-elements-of-music{
+  main #main-elements-of-music {
     margin: 30% 0;
     display: flex;
     flex-direction: row-reverse;
-}
-main #main-elements-of-music h2{
+  }
+  main #main-elements-of-music h2 {
     font-weight: 100;
     color: royalblue;
-}
-main #main-elements-of-music strong{color: #ed8c72;}
-main #main-elements-of-music img{
+  }
+  main #main-elements-of-music strong {
+    color: #ed8c72;
+  }
+  main #main-elements-of-music img {
     width: calc(100% - 10%);
     border-radius: 20px;
-}
+  }
 
-
-main #main-instrument{
+  main #main-instrument {
     width: 95vw;
     margin: 0 auto;
     height: 700px;
     margin-top: -10vh;
-    background:#000 url("Click to enlarge music wallpaper backgrounds and download.jpg");
-    background-position:200px -10px;
-    /* border: 5px solid green; */
+    background: #000
+      url("Click to enlarge music wallpaper backgrounds and download.jpg");
+    background-position: 200px -10px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: rgba(32, 28, 28, 0.933) 2px 2px 4px 4px;
-    /* align-items: center; */
-    
-}
-main #main-instrument-intro{
+  }
+  main #main-instrument-intro {
     width: 50%;
     color: #fff;
     height: 90%;
@@ -836,8 +870,8 @@ main #main-instrument-intro{
     border-radius: 10px;
     overflow: hidden;
     /* border: 1px solid pink; */
-}
-main #main-instrument-intro-header{
+  }
+  main #main-instrument-intro-header {
     width: 50%;
     color: #fff;
     height: 70%;
@@ -847,24 +881,24 @@ main #main-instrument-intro-header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: rgba(255, 255, 255, 0.103); */
     border-radius: 10px;
-    
-}
-main #main-instrument-intro blockquote{
+  }
+  main #main-instrument-intro blockquote {
     width: 60%;
-    /* border: 1px solid #fff; */
-
-}
-main #main-instrument-intro button{
+  }
+  main #main-instrument-intro button {
     position: absolute;
     color: orange;
     background: none;
     border: none;
-}
-main #main-instrument-intro #next-link{bottom: 100px;}
-main #main-instrument-intro button:hover{color:rgb(223, 138, 10)}
-main #main-musical-instrument-types{
+  }
+  main #main-instrument-intro #next-link {
+    bottom: 100px;
+  }
+  main #main-instrument-intro button:hover {
+    color: rgb(223, 138, 10);
+  }
+  main #main-musical-instrument-types {
     width: 50%;
     height: 100%;
     display: flex;
@@ -872,97 +906,81 @@ main #main-musical-instrument-types{
     justify-content: center;
     position: relative;
     top: calc(100% - 35%);
-    /* border: 1px solid pink; */
-    /* text-emphasis: wrap; */
-    /* overflow: hidden; */
-}
-main #main-musical-instrument-types p{
+  }
+  main #main-musical-instrument-types p {
     width: 70%;
-}
-main #main-instrument-list{
-    /* border: 2px solid pink; */
-    margin-top: 0px; 
+  }
+  main #main-instrument-list {
+    margin-top: 0px;
     height: 60px;
     position: relative;
     top: 5px;
     display: flex;
     justify-content: center;
-}
-main #main-instrument-types table, td, th{
+  }
+  main #main-instrument-types table,
+  td,
+  th {
     border: 1px solid #333;
     width: 30%;
     height: 40%;
-    /* padding: 5px; */
-}
- #prev{
+  }
+  #prev {
     position: absolute;
     bottom: -10px;
-
-}
-/* td, th{
-    padding: 10px;
-} */
-main #main-instrument-list ul{
-    /* width: ; */
+  }
+  main #main-instrument-list ul {
     height: inherit;
     display: flex;
     flex-direction: row;
-}
-main #main-instrument-list ul li{
+  }
+  main #main-instrument-list ul li {
     list-style: none;
     padding: 10px;
-}
-main #main-instrument-list ul li a{
+  }
+  main #main-instrument-list ul li a {
     color: #fff;
     text-decoration: none;
-    /* background: rgb(45, 48, 221); */
     padding: 10px;
     height: 30px;
-    border-radius: 10px; 
-}
+    border-radius: 10px;
+  }
 
-main #musical-professions{
+  main #musical-professions {
     width: 100vw;
     height: 600px;
-    background:#fff url("1gSvNc.jpg");
-    display:flex;
+    background: #fff url("1gSvNc.jpg");
+    display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow-y: scroll; */
-    
-}
-main #musical-professions #musical-professions-intro{
+  }
+  main #musical-professions #musical-professions-intro {
     width: 50%;
     height: 80%;
     background: rgba(32, 169, 248, 0.562);
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px 0 0px 30px;
     overflow-y: scroll;
-    /* border: 1px solid green; */
-}
-#musical-professions-intro::-webkit-scrollbar{
+  }
+  #musical-professions-intro::-webkit-scrollbar {
     width: 10px;
-
-}
-#musical-professions-intro::-webkit-scrollbar-track{
+  }
+  #musical-professions-intro::-webkit-scrollbar-track {
     background: royalblue;
     border-radius: 30px;
-}
-#musical-professions-intro::-webkit-scrollbar-thumb{
+  }
+  #musical-professions-intro::-webkit-scrollbar-thumb {
     background-color: #333;
     border-radius: 30px;
-}
-#musical-professions-intro::-webkit-scrollbar-thumb:hover{
+  }
+  #musical-professions-intro::-webkit-scrollbar-thumb:hover {
     background-color: rgb(80, 73, 73);
-}
-main #musical-professions-intro h2{
+  }
+  main #musical-professions-intro h2 {
     padding: 10px 20px;
-    /* width: 100%; */
-    /* margin-top: 150px; */
-    /* margin-left: 50%; */
     font-size: 2em;
     color: #fff;
     height: 50px;
@@ -972,20 +990,23 @@ main #musical-professions-intro h2{
     border-radius: 20px;
     background: rgba(32, 169, 248, 0.562);
     border-bottom: 2px solid #fff;
-}
+  }
 
-main #musical-professions-intro h2 b{
+  main #musical-professions-intro h2 b {
     color: #db542e;
-}
+  }
 
-main #musical-professions-intro p{
+  main #musical-professions-intro p {
     width: 50%;
     padding: 10px;
-
-}
-main #musical-professions-intro i{color: #fff;}
-main #musical-professions-intro a{ color: #eec306; }
-#cookies{
+  }
+  main #musical-professions-intro i {
+    color: #fff;
+  }
+  main #musical-professions-intro a {
+    color: #eec306;
+  }
+  #cookies {
     width: 100vw;
     height: 40px;
     background: #2f496e;
@@ -993,113 +1014,167 @@ main #musical-professions-intro a{ color: #eec306; }
     position: fixed;
     bottom: 0;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     opacity: 0;
-}
-#cookies button{
+  }
+  #cookies button {
     width: 30px;
     height: 30px;
     background: green;
     color: #fff;
-    border:none;
-    /* padding: 10px; */
+    border: none;
     margin-left: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-#cookies button svg{
+  }
+  #cookies button svg {
     width: 20px;
     height: 20px;
     fill: #fff;
-}
-#cookies button:hover{background: rgb(13, 102, 13);}
-footer{
+  }
+  #cookies button:hover {
+    background: rgb(13, 102, 13);
+  }
+  footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    background: #EEEEEE;
-    /* border: 1px solid green; */
-
-}
-footer #logo{
+    background: #eeeeee;
+  }
+  footer #logo {
     padding: 0px 20px;
     width: 10vw;
     height: inherit;
-    margin-left: 10px
-    /* border: 1px solid green; */
-}
-footer #logo h1{
+    margin-left: 10px;
+  }
+  footer #logo h1 {
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
-    /* text-decoration: underline; */
-}
-footer #logo b{
+  }
+  footer #logo b {
     color: #ed8c72;
-}
-footer #socialmedia{
+  }
+  footer #socialmedia {
     width: 200px;
     height: inherit;
-    /* border: 1px solid pink; */
     margin-right: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-footer #socialmedia svg{
+  }
+  footer #socialmedia svg {
     width: 30px;
     height: 30px;
     padding: 10px;
-}
-footer #socialmedia #facebook-btn{fill: royalblue;}
-footer #socialmedia #twitter-btn{fill: #1DA1F2;}
-footer #socialmedia #gmail-btn{fill: rgb(182, 33, 33);}
-
-
-
-
-
-#orange{background: rgb(221, 78, 12);} #orange:hover, #orange:focus{background: rgb(180, 64, 11)}
-#green{background: green;} #green:hover,#green:focus{background: rgb(5, 95, 5);}
-#blue{background: rgb(22, 107, 187);} #blue:hover, #blue:focus{background: rgb(11, 86, 156)}
-#pink{background: rgb(211, 33, 62);} #pink:hover, #pink:focus{background: rgb(197, 15, 46)}
-
-.hide{animation: hide 2s ease forwards;}
-.show{animation:show 2s ease forwards; display: flex;
-/* animation-delay: 1.2s; */
-}
-.appear{animation: appear 1s ease forwards;}
-/*************************************************************
+  }
+  footer #socialmedia #facebook-btn {
+    fill: royalblue;
+  }
+  footer #socialmedia #twitter-btn {
+    fill: #1da1f2;
+  }
+  footer #socialmedia #gmail-btn {
+    fill: rgb(182, 33, 33);
+  }
+  #orange {
+    background: rgb(221, 78, 12);
+  }
+  #orange:hover,
+  #orange:focus {
+    background: rgb(180, 64, 11);
+  }
+  #green {
+    background: green;
+  }
+  #green:hover,
+  #green:focus {
+    background: rgb(5, 95, 5);
+  }
+  #blue {
+    background: rgb(22, 107, 187);
+  }
+  #blue:hover,
+  #blue:focus {
+    background: rgb(11, 86, 156);
+  }
+  #pink {
+    background: rgb(211, 33, 62);
+  }
+  #pink:hover,
+  #pink:focus {
+    background: rgb(197, 15, 46);
+  }
+  .hide {
+    animation: hide 2s ease forwards;
+  }
+  .show {
+    animation: show 2s ease forwards;
+    display: flex;
+    /* animation-delay: 1.2s; */
+  }
+  .appear {
+    animation: appear 1s ease forwards;
+  }
+  /*************************************************************
 ****************************************************************
                 ANIMATION
 ****************************************************************
 ****************************************************************/
-@keyframes loadIn{
-    0%{left: -20%; opacity: .0;}
-    50%{left: -10%; opacity: .5;}
-    100%{left: 0%; opacity: 1; z-index: 33;}
-}
-@keyframes Arrow-moveDown{
-    from{top: 0; opacity: 1;}
-    to{top: 5px; opacity: 0;}
-}
-@keyframes hide{
-    0%{bottom: 0; opacity: 1;}
-    100%{bottom: 410px; opacity: 0;}
-}
-@keyframes show{
-    0%{position: relative; top: calc(100% - 40%);}
-    100%{position: relative; top: calc(100% - 120%);}
-}
-@keyframes appear{
-    to{opacity: 1;}
-}
-
+  @keyframes loadIn {
+    0% {
+      left: -20%;
+      opacity: 0;
+    }
+    50% {
+      left: -10%;
+      opacity: 0.5;
+    }
+    100% {
+      left: 0%;
+      opacity: 1;
+      z-index: 33;
+    }
+  }
+  @keyframes Arrow-moveDown {
+    from {
+      top: 0;
+      opacity: 1;
+    }
+    to {
+      top: 5px;
+      opacity: 0;
+    }
+  }
+  @keyframes hide {
+    0% {
+      bottom: 0;
+      opacity: 1;
+    }
+    100% {
+      bottom: 410px;
+      opacity: 0;
+    }
+  }
+  @keyframes show {
+    0% {
+      position: relative;
+      top: calc(100% - 40%);
+    }
+    100% {
+      position: relative;
+      top: calc(100% - 120%);
+    }
+  }
+  @keyframes appear {
+    to {
+      opacity: 1;
+    }
+  }
 }
