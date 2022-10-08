@@ -1,0 +1,114 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ABC9FF;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header_wave_opacity {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.header_wave_opacity svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 159px;
+}
+
+.header_wave_opacity .shape-fill {
+  fill: #ABC9FF;
+}
+
+#main_header {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  background: #FF8B8B;
+  position: relative;
+}
+#main_header_catchText {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #205375;
+  border: 1px solid transparent;
+}
+#main_header_catchText #catchText {
+  border: 1px solid transparent;
+}
+#main_header_catchText .icons {
+  border: 1px solid transparent;
+  width: 80%;
+  height: 50px;
+  color: #EFEFEF;
+  margin-top: 5vh;
+}
+#main_header_catchText .icons div {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  border: 1px solid transparent;
+}
+#main_header_catchText .icons div a {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+#main_header_catchText .icons div a img {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  border: 1px solid transparent;
+  transition: all 0.4s ease-in-out;
+}
+#main_header_catchText .icons div a img:hover {
+  transform: translate(10px, 10px);
+}
+#main_header_catchText .icons div a img svg {
+  fill: white;
+}
+#main_header_catchText h3 {
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  position: relative;
+  top: 10px;
+}
+#main_header_catchText h1 {
+  font-size: 7rem;
+}
+#main_header_img {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#main_header_img img {
+  width: 600px;
+  height: 450px;
+  box-shadow: 3px 7px 42px 0px rgba(120, 115, 115, 0.639);
+  z-index: 1;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+}
+#main_header #main_header_img {
+  border: 1px solid transparent;
+}/*# sourceMappingURL=style.css.map */

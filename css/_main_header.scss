@@ -1,0 +1,90 @@
+#main_header {
+    @include border(red);
+    display: flex;
+    justify-content: space-around;
+    background: $p2_details;
+    position: relative;
+
+    &_catchText {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $p1_secondary;
+
+        #catchText {
+            @include border(cyan);
+        }
+        .icons {
+            @include border(green);
+            width: 80%;
+            height: 50px;
+            color: $p1_fine_details;
+            margin-top: 5vh;
+            div {
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: inherit;
+                @include border(blue);
+                a {
+                    width: 25px;
+                    height: 25px;
+                    position: relative;
+                    
+                    
+                    img {
+                    position: absolute;
+                    height: inherit;
+                    width: inherit;
+                    @include border(white);
+                    transition: all .4s ease-in-out;
+                    &:hover {
+                        transform: translate(10px, 10px);
+                    }
+                    svg {
+                        fill: white;
+                    }
+                    
+                }
+            }
+            }
+            
+        }
+        @include border(white);
+        h3 {
+            font-size: 1.5rem;
+            @include border(pink);
+            position: relative;
+            top: 10px;
+        }
+        h1 {
+            font-size:7rem;
+            
+        }
+    }
+    &_img {
+        width: 600px;
+        height: 400px;
+        // background: url('../main_media/images/blob-scene-haikei (1).svg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        img {
+            width: 600px;
+            height: 450px;
+            box-shadow: 3px 7px 42px 0px rgba(120, 115, 115, 0.639);
+            z-index: 1;
+            border-radius: 10px;
+            position: relative;
+            top: 50px;
+        }
+    }
+
+    #main_header_img {
+        @include border(blue);
+    }
+}

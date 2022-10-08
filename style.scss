@@ -1,0 +1,26 @@
+// ------ Color Themes --------------
+$p1_primary: #112b3c;
+$p1_secondary: #205375;
+$p1_details: #F66B0E;
+$p1_fine_details: #EFEFEF;
+
+
+$p2_primary: #ABC9FF;
+$p2_secondary: #FFDEDE;
+$p2_details: #FF8B8B;
+$p2_fine_details: #EB4747;
+
+// --------- Rules begin here ---------------
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: $p2_primary;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@import 'css/util';
+@import 'css/main_header';
