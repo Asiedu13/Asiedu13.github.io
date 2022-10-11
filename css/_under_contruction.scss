@@ -1,0 +1,29 @@
+#under_contruction {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    transform: translate(-40px, -40px);
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    section {
+        h2 {
+            font-size: 2.8rem;
+            color: #205375;
+        }
+        p {
+            font-size:1.5rem;
+            color: #EFEFEF;
+        }
+    }
+
+    @include border(red);
+    
+    img {
+        width: 80%;
+        height: 80%;
+        @include border(white);
+    }
+}

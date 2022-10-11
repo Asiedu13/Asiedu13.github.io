@@ -21,7 +21,10 @@ $p2_fine_details: #EB4747;
 body {
     background: $p2_primary;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
 }
 @import 'css/util';
 @import 'css/main_header';
 @import 'css/iam';
+
+@import 'css/under_contruction';
